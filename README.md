@@ -25,7 +25,7 @@ git clone https://github.com/sherwyn11/Dino-Game-AI.git
 
 # Working Demonstration
 
-![](dino.gif)
+![](Dino.gif)
 
 
 © 2020 Sherwyn D'souza
