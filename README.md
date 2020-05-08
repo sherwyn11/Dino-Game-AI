@@ -12,7 +12,7 @@ Simple Dino game using p5.js, Genetic Algorithm and TensorFlow.js
 git clone https://github.com/sherwyn11/Dino-Game-AI.git
 ```
 
-2. Open index.html in your browser
+2. Open <b>index.html</b> in your browser
 
 <br>
 
