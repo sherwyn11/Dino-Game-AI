@@ -1,4 +1,4 @@
-let DINOS = 2;
+let DINOS = 10;
 let dino;
 let obstacles = [];
 let timer = 10;
