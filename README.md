@@ -1,6 +1,6 @@
 # Dino-Game-AI
 
-Simple Dino game using p5.js and TensorFlow.js
+Simple Dino game using p5.js, Genetic Algorithm and TensorFlow.js
 
 <br>
 
