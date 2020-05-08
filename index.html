@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <script src="sketch.js"></script>
+    <script src="dino.js"></script>
+    <script src="obstacles.js"></script>
+    <script src="tf-nn.js"></script>
+    <script src="generation.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dino Game AI</title>
+    <style>
+        button, canvas {
+            position: relative;
+        }
+        button {
+            z-index: 1;
+            margin: 10px;
+        }
+
+        canvas {
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dino Game AI</h1>
+    <p id="generation"></p>
+    <p id="dino"></p>
+    <p id="score"></p>
+    <p id="bestScore"></p>
+    <button onClick="train()">Train Dino</button>
+    <button onClick="runBest()">Best Dino</button>
+</body>
+</html>
